@@ -1,0 +1,956 @@
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+    <link rel="icon" href="/favicon.ico">
+    <link rel="stylesheet" href="/css/main.css">
+    <title>在线订阅转换工具</title>
+    <meta name="baidu-site-verification" content="codeva-HnQYbN6Uq0">
+    <meta name="google-site-verification" content="ICRNFS2L5_er1nbSKBZEsQC2z-laLOQ4W2XPkys8maE">
+    <meta name="keywords" content="全网最漂亮的订阅转换,暗黑模式,Sing-Box转换,Sing-Box配置,Clash订阅转SingBox,Quantumult X,Surge,Shadowrocket,订阅转换">
+    <meta name="description" content="全网最漂亮的订阅转换,暗黑模式,Sing-Box转换,Sing-Box配置,Clash订阅转SingBox,Quantumult X,Surge,Shadowrocket,订阅转换">
+    <meta name="color-scheme" content="light dark">
+    <script defer="defer" src="/js/chunk-vendors.b8f0afbb.js"></script>
+    <script defer="defer" src="/js/app.4861fd84.js"></script>
+    <link href="/css/chunk-vendors.10dd4e95.css" rel="stylesheet">
+    <link href="/css/app.fa2f28bd.css" rel="stylesheet">
+    <script src="chrome-extension://bpoadfkcbjbfhfodiogcnhhhpibjhbnh/image/inject.js" id="imt-image-inject"></script>
+    <style data-id="immersive-translate-input-injected-css">.immersive-translate-input { position: absolute; top: 0; right: 0; left: 0; bottom: 0; z-index: 2147483647; display: flex; justify-content: center; align-items: center; } .immersive-translate-attach-loading::after { content: " "; --loading-color: #f78fb6; width: 6px; height: 6px; border-radius: 50%; display: block; margin: 12px auto; position: relative; color: white; left: -100px; box-sizing: border-box; animation: immersiveTranslateShadowRolling 1.5s linear infinite; position: absolute; top: 50%; left: 50%; transform: translate(-2000%, -50%); z-index: 100; } .immersive-translate-loading-spinner { vertical-align: middle !important; width: 10px !important; height: 10px !important; display: inline-block !important; margin: 0 4px !important; border: 2px rgba(221, 244, 255, 0.6) solid !important; border-top: 2px rgba(0, 0, 0, 0.375) solid !important; border-left: 2px rgba(0, 0, 0, 0.375) solid !important; border-radius: 50% !important; padding: 0 !important; -webkit-animation: immersive-translate-loading-animation 0.6s infinite linear !important; animation: immersive-translate-loading-animation 0.6s infinite linear !important; } @-webkit-keyframes immersive-translate-loading-animation { from { -webkit-transform: rotate(0deg); } to { -webkit-transform: rotate(359deg); } } @keyframes immersive-translate-loading-animation { from { transform: rotate(0deg); } to { transform: rotate(359deg); } } .immersive-translate-input-loading { --loading-color: #f78fb6; width: 6px; height: 6px; border-radius: 50%; display: block; margin: 12px auto; position: relative; color: white; left: -100px; box-sizing: border-box; animation: immersiveTranslateShadowRolling 1.5s linear infinite; } @keyframes immersiveTranslateShadowRolling { 0% { box-shadow: 0px 0 rgba(255, 255, 255, 0), 0px 0 rgba(255, 255, 255, 0), 0px 0 rgba(255, 255, 255, 0), 0px 0 rgba(255, 255, 255, 0); } 12% { box-shadow: 100px 0 var(--loading-color), 0px 0 rgba(255, 255, 255, 0), 0px 0 rgba(255, 255, 255, 0), 0px 0 rgba(255, 255, 255, 0); } 25% { box-shadow: 110px 0 var(--loading-color), 100px 0 var(--loading-color), 0px 0 rgba(255, 255, 255, 0), 0px 0 rgba(255, 255, 255, 0); } 36% { box-shadow: 120px 0 var(--loading-color), 110px 0 var(--loading-color), 100px 0 var(--loading-color), 0px 0 rgba(255, 255, 255, 0); } 50% { box-shadow: 130px 0 var(--loading-color), 120px 0 var(--loading-color), 110px 0 var(--loading-color), 100px 0 var(--loading-color); } 62% { box-shadow: 200px 0 rgba(255, 255, 255, 0), 130px 0 var(--loading-color), 120px 0 var(--loading-color), 110px 0 var(--loading-color); } 75% { box-shadow: 200px 0 rgba(255, 255, 255, 0), 200px 0 rgba(255, 255, 255, 0), 130px 0 var(--loading-color), 120px 0 var(--loading-color); } 87% { box-shadow: 200px 0 rgba(255, 255, 255, 0), 200px 0 rgba(255, 255, 255, 0), 200px 0 rgba(255, 255, 255, 0), 130px 0 var(--loading-color); } 100% { box-shadow: 200px 0 rgba(255, 255, 255, 0), 200px 0 rgba(255, 255, 255, 0), 200px 0 rgba(255, 255, 255, 0), 200px 0 rgba(255, 255, 255, 0); } } .immersive-translate-toast { display: flex; position: fixed; z-index: 2147483647; left: 0; right: 0; top: 1%; width: fit-content; padding: 12px 20px; margin: auto; overflow: auto; background: #fef6f9; box-shadow: 0px 4px 10px 0px rgba(0, 10, 30, 0.06); font-size: 15px; border-radius: 8px; color: #333; } .immersive-translate-toast-content { display: flex; flex-direction: row; align-items: center; } .immersive-translate-toast-hidden { margin: 0 20px 0 72px; text-decoration: underline; cursor: pointer; } .immersive-translate-toast-close { color: #666666; font-size: 20px; font-weight: bold; padding: 0 10px; cursor: pointer; } @media screen and (max-width: 768px) { .immersive-translate-toast { top: 0; padding: 12px 0px 0 10px; } .immersive-translate-toast-content { flex-direction: column; text-align: center; } .immersive-translate-toast-hidden { margin: 10px auto; } } .immersive-translate-modal { display: none; position: fixed; z-index: 2147483647; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0.4); font-size: 15px; } .immersive-translate-modal-content { background-color: #fefefe; margin: 10% auto; padding: 40px 24px 24px; border: 1px solid #888; border-radius: 10px; width: 80%; max-width: 270px; font-family: system-ui, -apple-system, "Segoe UI", "Roboto", "Ubuntu", "Cantarell", "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; position: relative; } @media screen and (max-width: 768px) { .immersive-translate-modal-content { margin: 50% auto !important; } } .immersive-translate-modal .immersive-translate-modal-content-in-input { max-width: 500px; } .immersive-translate-modal-content-in-input .immersive-translate-modal-body { text-align: left; max-height: unset; } .immersive-translate-modal-title { text-align: center; font-size: 16px; font-weight: 700; color: #333333; } .immersive-translate-modal-body { text-align: center; font-size: 14px; font-weight: 400; color: #333333; word-break: break-all; margin-top: 24px; } @media screen and (max-width: 768px) { .immersive-translate-modal-body { max-height: 250px; overflow-y: auto; } } .immersive-translate-close { color: #666666; position: absolute; right: 16px; top: 16px; font-size: 20px; font-weight: bold; } .immersive-translate-close:hover, .immersive-translate-close:focus { color: black; text-decoration: none; cursor: pointer; } .immersive-translate-modal-footer { display: flex; justify-content: center; flex-wrap: wrap; margin-top: 24px; } .immersive-translate-btn { width: fit-content; color: #fff; background-color: #ea4c89; border: none; font-size: 16px; margin: 0 8px; padding: 9px 30px; border-radius: 5px; display: flex; align-items: center; justify-content: center; cursor: pointer; transition: background-color 0.3s ease; } .immersive-translate-btn:hover { background-color: #f082ac; } .immersive-translate-btn:disabled { opacity: 0.6; cursor: not-allowed; } .immersive-translate-btn:disabled:hover { background-color: #ea4c89; } .immersive-translate-cancel-btn { /* gray color */ background-color: rgb(89, 107, 120); } .immersive-translate-cancel-btn:hover { background-color: hsl(205, 20%, 32%); } .immersive-translate-action-btn { background-color: transparent; color: #ea4c89; border: 1px solid #ea4c89; } .immersive-translate-btn svg { margin-right: 5px; } .immersive-translate-link { cursor: pointer; user-select: none; -webkit-user-drag: none; text-decoration: none; color: #007bff; -webkit-tap-highlight-color: rgba(0, 0, 0, 0.1); } .immersive-translate-primary-link { cursor: pointer; user-select: none; -webkit-user-drag: none; text-decoration: none; color: #ea4c89; -webkit-tap-highlight-color: rgba(0, 0, 0, 0.1); } .immersive-translate-modal input[type="radio"] { margin: 0 6px; cursor: pointer; } .immersive-translate-modal label { cursor: pointer; } .immersive-translate-close-action { position: absolute; top: 2px; right: 0px; cursor: pointer; }
+      .imt-image-status { background-color: rgba(0, 0, 0, 0.5) !important; display: flex !important; flex-direction: column !important; align-items: center !important; justify-content: center !important; border-radius: 16px !important; } .imt-image-status img, .imt-image-status svg, .imt-img-loading { width: 28px !important; height: 28px !important; margin: 0 0 8px 0 !important; min-height: 28px !important; min-width: 28px !important; position: relative !important; } .imt-img-loading { background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4CAMAAACfWMssAAAAtFBMVEUAAAD////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////oK74hAAAAPHRSTlMABBMIDyQXHwyBfFdDMSw+OjXCb+5RG51IvV/k0rOqlGRM6KKMhdvNyZBz9MaupmxpWyj437iYd/yJVNZeuUC7AAACt0lEQVRIx53T2XKiUBCA4QYOiyCbiAsuuGBcYtxiYtT3f6/pbqoYHVFO5r+iivpo6DpAWYpqeoFfr9f90DsYAuRSWkFnPO50OgR9PwiCUFcl2GEcx+N/YBh6pvKaefHlUgZd1zVe0NbYcQjGBfzrPE8Xz8aF+71D8gG6DHFPpc4a7xFiCDuhaWgKgGIJQ3d5IMGDrpS4S5KgpIm+en9f6PlAhKby4JwEIxlYJV9h5k5nee9GoxHJ2IDSNB0dwdad1NAxDJ/uXDHYmebdk4PdbkS58CIVHdYSUHTYYRWOJblWSyu2lmy3KNFVJNBhxcuGW4YBVCbYGRZwIooipHsNqjM4FbgOQqQqSKQQU9V8xmi1QlgHqQQ6DDBvRUVCDirs+EzGDGOQTCATgtYTnbCVLgsVgRE0T1QE0qHCFAht2z6dLvJQs3Lo2FQoDxWNUiBhaP4eRgwNkI+dAjVOA/kUrIDwf3CG8NfNOE0eiFotSuo+rBiq8tD9oY4Qzc6YJw99hl1wzpQvD7ef2M8QgnOGJfJw+EltQc+oX2yn907QB22WZcvlUpd143dqQu+8pCJZuGE4xCuPXJqqcs5sNpsI93Rmzym1k4Npk+oD1SH3/a3LOK/JpUBpWfqNySxWzCfNCUITuDG5dtuphrUJ1myeIE9bIsPiKrfqTai5WZxbhtNphYx6GEIHihyGFTI69lje/rxajdh0s0msZ0zYxyPLhYCb1CyHm9Qsd2H37Y3lugVwL9kNh8Ot8cha6fUNQ8nuXi5z9/ExsAO4zQrb/ev1yrCB7lGyQzgYDGuxq1toDN/JGvN+HyWNHKB7zEoK+PX11e12G431erGYzwmytAWU56fkMHY5JJnDRR2eZji3AwtIcrEV8Cojat/BdQ7XOwGV1e1hDjGGjXbdArm8uJZtCH5MbcctVX8A1WpqumJHwckAAAAASUVORK5CYII="); background-size: 28px 28px; animation: image-loading-rotate 1s linear infinite !important; } .imt-image-status span { color: var(--bg-2, #fff) !important; font-size: 14px !important; line-height: 14px !important; font-weight: 500 !important; font-family: "PingFang SC", Arial, sans-serif !important; } @keyframes image-loading-rotate { from { transform: rotate(360deg); } to { transform: rotate(0deg); } }</style>
+  </head>
+
+  <body class="light-mode">
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="position: absolute; width: 0; height: 0" aria-hidden="true" id="__SVG_SPRITE_NODE__">
+      <symbol xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 1024 1024" id="icon-bilibili">
+        <path d="M512 0c282.775704 0 512 229.224296 512 512S794.775704 1024 512 1024 0 794.775704 0 512 229.224296 0 512 0z m0 37.925926C250.17837 37.925926 37.925926 250.17837 37.925926 512s212.252444 474.074074 474.074074 474.074074 474.074074-212.252444 474.074074-474.074074S773.82163 37.925926 512 37.925926z m-152.120889 160.805926c15.777185-12.894815 16.630519-7.149037 21.940148-3.565037s88.519111 85.655704 88.519111 85.655704H439.182222c37.888 0.018963 77.861926 0.132741 116.110222 0.284444 12.420741-12.231111 81.787259-80.535704 86.622815-83.797333 5.30963-3.584 6.181926-9.329778 21.959111 3.602963 15.777185 12.894815 6.447407 24.367407 6.447408 24.367407l-57.856 56.092444c71.793778 0.360296 128.663704 0.796444 139.320889 0.872297h1.327407l0.455111 0.018963s78.544593 17.21837 80.706371 107.595852c-0.32237 27.117037-0.455111 62.388148-0.474075 98.417777v42.040889c0.094815 61.288296 0.379259 116.54637 0.455112 128.379259v2.446223c-0.18963 3.602963-5.878519 88.405333-79.606519 102.096592-32.274963-1.080889-43.045926 0-43.045926 0s-2.142815 37.129481-33.886815 37.660445c-31.744 0.530963-36.598519-25.827556-37.660444-35.51763h-4.759704c-35.593481 0.113778-217.069037 0.948148-243.749926 1.061926l-2.446222 0.018963h-0.83437s-3.77363 34.455704-35.51763 34.436741c-31.725037 0-33.355852-28.520296-35.498667-34.436741-20.442074 0-48.412444-0.530963-48.412444-0.530963s-70.162963-14.52563-79.208296-105.434074c0.32237-24.272593 0.474074-54.821926 0.530963-86.603852l0.018963-11.946667V525.937778v-17.692445c-0.094815-56.282074-0.360296-105.073778-0.417186-116.091259v-2.313481S189.62963 388.740741 189.62963 386.616889v-2.389333c0.32237-19.209481 6.826667-81.995852 77.577481-101.963852 26.112-1.005037 83.019852-1.384296 149.048889-1.422223h-3.299556l-59.543703-57.704296s-9.310815-11.472593 6.447407-24.38637z m384.379259 149.522963h-458.145185c-13.937778 0-25.220741 11.567407-25.220741 25.827555V677.546667c0 14.260148 11.282963 25.808593 25.220741 25.808592h458.145185c13.918815 0 25.220741-11.567407 25.220741-25.808592V374.08237c0-14.260148-11.301926-25.827556-25.220741-25.827555zM516.247704 567.940741c31.744 68.854519 66.730667 18.24237 66.730666 18.24237l19.911111 12.951704s-37.129481 59.733333-86.091851 14.525629c-41.434074 45.188741-85.010963-14.411852-85.010963-14.411851l22.053926-14.089482 0.151703 0.227556 0.37926 0.663703c4.133926 6.693926 31.649185 46.838519 61.876148-18.109629z m-72.628148-133.973334l10.24 50.574223-133.442371 25.827555-11.282963-50.574222 134.485334-25.827556z m149.579851 0l134.485334 25.827556-11.282963 50.574222-133.423408-25.827555 10.221037-50.574223z" p-id="2357"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="icon" viewBox="0 0 1024 1024" id="icon-github">
+        <defs>
+          <style type="text/css"></style>
+        </defs>
+        <path d="M511.542857 14.057143C228.914286 13.942857 0 242.742857 0 525.142857 0 748.457143 143.2 938.285714 342.628571 1008c26.857143 6.742857 22.742857-12.342857 22.742858-25.371429v-88.571428c-155.085714 18.171429-161.371429-84.457143-171.771429-101.6C172.571429 756.571429 122.857143 747.428571 137.714286 730.285714c35.314286-18.171429 71.314286 4.571429 113.028571 66.171429 30.171429 44.685714 89.028571 37.142857 118.857143 29.714286 6.514286-26.857143 20.457143-50.857143 39.657143-69.485715-160.685714-28.8-227.657143-126.857143-227.657143-243.428571 0-56.571429 18.628571-108.571429 55.2-150.514286-23.314286-69.142857 2.171429-128.342857 5.6-137.142857 66.4-5.942857 135.428571 47.542857 140.8 51.771429 37.714286-10.171429 80.8-15.542857 129.028571-15.542858 48.457143 0 91.657143 5.6 129.714286 15.885715 12.914286-9.828571 76.914286-55.771429 138.628572-50.171429 3.314286 8.8 28.228571 66.628571 6.285714 134.857143 37.028571 42.057143 55.885714 94.514286 55.885714 151.2 0 116.8-67.428571 214.971429-228.571428 243.314286a145.714286 145.714286 0 0 1 43.542857 104v128.571428c0.914286 10.285714 0 20.457143 17.142857 20.457143 202.4-68.228571 348.114286-259.428571 348.114286-484.685714 0-282.514286-229.028571-511.2-511.428572-511.2z" p-id="1256"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="icon" viewBox="0 0 1024 1024" id="icon-telegram">
+        <defs>
+          <style type="text/css"></style>
+        </defs>
+        <path d="M873.6 150.4C777.6 52.8 649.6 0 512 0S246.4 52.8 150.4 150.4 0 374.4 0 512s52.8 265.6 150.4 361.6S374.4 1024 512 1024s265.6-52.8 361.6-150.4S1024 649.6 1024 512s-52.8-265.6-150.4-361.6zM512 974.4C256 974.4 49.6 768 49.6 512S256 49.6 512 49.6s462.4 208 462.4 462.4S768 974.4 512 974.4z" p-id="4384"></path>
+        <path d="M753.6 275.2c-17.6-11.2-44.8-1.6-51.2 1.6L212.8 467.2c-17.6 6.4-36.8 20.8-33.6 43.2 3.2 25.6 30.4 35.2 33.6 36.8l113.6 38.4c8 28.8 35.2 116.8 41.6 136 4.8 16 11.2 35.2 28.8 35.2 1.6 1.6 4.8 1.6 9.6 1.6 11.2 0 17.6-3.2 20.8-8l65.6-60.8 110.4 84.8c1.6 1.6 1.6 1.6 4.8 1.6 9.6 4.8 17.6 4.8 24 4.8s14.4-1.6 17.6-3.2c19.2-8 27.2-25.6 28.8-28.8 0-1.6 1.6-1.6 1.6-3.2L768 307.2V304c0-17.6-9.6-25.6-14.4-28.8zM424 702.4l6.4-60.8 32 24-38.4 36.8z m219.2 35.2c-1.6 1.6-3.2 4.8-6.4 6.4-3.2 1.6-6.4 1.6-11.2-1.6l-121.6-94.4-60.8-48c51.2-44.8 209.6-187.2 216-195.2 6.4-6.4 14.4-14.4 12.8-25.6 0-1.6 0-1.6-1.6-3.2-1.6-6.4-4.8-12.8-11.2-16-11.2-6.4-24-1.6-35.2 4.8L336 548.8l-113.6-38.4c-1.6-1.6-4.8-1.6-6.4-4.8 1.6-1.6 4.8-3.2 6.4-3.2h1.6l488-192h1.6c3.2-1.6 8-3.2 12.8-3.2l-83.2 430.4z" p-id="4385"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 1024 1024" id="icon-youtube">
+        <path d="M1024 511.855408a511.855408 511.855408 0 1 0-511.855408 511.855408 512.144592 512.144592 0 0 0 511.855408-511.855408z m-977.441401 0A465.296809 465.296809 0 1 1 511.855408 977.441401 465.296809 465.296809 0 0 1 46.558599 511.855408z m0 0" p-id="52428"></path>
+        <path d="M578.367693 250.144027v142.278453a92.249647 92.249647 0 0 0 2.891838 27.183281 19.953685 19.953685 0 0 0 21.399605 13.302457 52.053092 52.053092 0 0 0 37.304716-22.267156v19.953685h33.83451V250.144027h-32.966958v137.651511c-7.229596 10.410618-14.170008 15.615928-20.532054 15.615928s-6.940412-2.602655-7.51878-7.807964a92.828015 92.828015 0 0 1 0-12.724089V250.144027z m0 0M504.336628 433.77577a44.534312 44.534312 0 0 0 38.172268-18.507767 71.139226 71.139226 0 0 0 10.121434-42.510025v-64.198814a70.560859 70.560859 0 0 0-10.121434-42.220841 48.582886 48.582886 0 0 0-76.344536 0 70.560859 70.560859 0 0 0-10.121434 42.220841v63.331262a72.295962 72.295962 0 0 0 10.121434 42.510026 44.823496 44.823496 0 0 0 37.883084 18.507766z m-15.615928-130.711099q0-24.869811 15.615928-24.869811c10.410618 0 15.615928 8.386332 15.615928 24.869811v75.766168c0 16.772663-5.205309 25.158995-15.615928 25.158994s-15.615928-8.386332-15.615928-25.158994z m0 0M412.376165 430.305563V332.561423l43.666761-144.591923h-37.015533l-24.291443 95.430669-25.737362-95.141485h-38.461452q10.121435 30.364304 23.423892 67.66902A610.4671 610.4671 0 0 1 375.939 332.561423v97.74414h36.147981z m0 0M749.56453 486.985597a65.933917 65.933917 0 0 0-37.015533-17.061847Q646.036713 462.694154 511.855408 462.694154t-200.115222 7.229596a65.355549 65.355549 0 0 0-37.304716 17.061847 68.825755 68.825755 0 0 0-21.110421 35.858797 626.950579 626.950579 0 0 0-9.253883 126.373341 613.937306 613.937306 0 0 0 9.253883 126.373341 66.223101 66.223101 0 0 0 20.821237 35.858797 64.198814 64.198814 0 0 0 37.015533 16.483479 1930.012991 1930.012991 0 0 0 200.404405 7.51878 1929.723807 1929.723807 0 0 0 200.404406-7.51878 63.331262 63.331262 0 0 0 36.726348-16.483479 68.825755 68.825755 0 0 0 20.821237-35.858797 623.769557 623.769557 0 0 0 11.27817-126.373341 611.334651 611.334651 0 0 0-9.543067-126.373341 65.933917 65.933917 0 0 0-20.821237-35.858797z m-352.225925 72.295962H358.58797v205.609715h-36.147981v-205.609715H284.556905v-33.83451h112.7817z m97.454956 205.609715H462.694154v-19.375318a52.920644 52.920644 0 0 1-36.726348 21.977972 19.375318 19.375318 0 0 1-20.821237-13.302457 88.490257 88.490257 0 0 1-2.891839-26.31573v-141.410901H433.77577v131.578651a98.033324 98.033324 0 0 0 0 12.724089c0 5.205309 3.181022 7.51878 7.51878 7.51878s13.302457-5.205309 20.532053-15.03756v-136.78396h32.099407z m122.903135-53.499012a131.57865 131.57865 0 0 1-3.181022 36.147981 24.869811 24.869811 0 0 1-25.737363 19.953685 44.823496 44.823496 0 0 1-33.545326-19.953685v17.351031h-32.388591v-239.444225h32.099407v78.368822a43.666761 43.666761 0 0 1 33.545326-19.375317 25.158995 25.158995 0 0 1 25.737363 20.242869 127.530076 127.530076 0 0 1 3.181022 35.858797z m122.035583-28.918385h-64.777182v31.52104q0 24.869811 16.48348 24.86981a13.880825 13.880825 0 0 0 14.459192-13.013273 176.402146 176.402146 0 0 0 0-21.977972h32.966958v4.626942a157.316012 157.316012 0 0 1 0 21.11042 44.823496 44.823496 0 0 1-46.558599 38.750636 46.269415 46.269415 0 0 1-39.039819-18.507766 67.66902 67.66902 0 0 1-10.410619-41.931658v-63.331262a69.693307 69.693307 0 0 1 10.121435-41.931658 49.450438 49.450438 0 0 1 76.922903 0 71.717594 71.717594 0 0 1 9.832251 41.931658z m0 0" p-id="52429"></path>
+        <path d="M691.149393 613.648122c-10.988986 0-16.194295 8.097148-16.194296 24.580627v16.772663h32.388591v-16.772663q0-24.580627-16.194295-24.580627z m0 0M571.138097 613.648122a23.134708 23.134708 0 0 0-16.194296 7.807964v108.733126a23.134708 23.134708 0 0 0 16.194296 7.807964q14.170008 0 14.170008-24.291443v-76.055352q0-24.291443-14.170008-24.291443z m0 0" p-id="52430"></path>
+      </symbol>
+    </svg>
+    <section id="canvas-show" class="canvas-wrap">
+      <div id="canvas" class="gradient" style="background: -webkit-gradient(linear, 0% 0%, 100% 0%, from(rgb(59, 252, 67)), to(rgb(255, 124, 4)));">
+        <canvas width="225" height="1357" style="width: 150px; height: 905px;"></canvas>
+      </div>
+    </section>
+    <div id="app">
+      <div>
+        <div class="el-row" style="margin-top: 10px;">
+          <div class="el-col el-col-24">
+            <div class="el-card is-always-shadow">
+              <div class="el-card__header">
+                <div>
+                  <svg data-v-efa98260="" aria-hidden="true" class="gayhub svg-icon" style="float: left;">
+                    <use data-v-efa98260="" xlink:href="#icon-github"></use>
+                  </svg>
+                  <svg data-v-efa98260="" aria-hidden="true" class="dianbao svg-icon" style="float: left; margin-left: 10px;">
+                    <use data-v-efa98260="" xlink:href="#icon-telegram"></use>
+                  </svg>
+                  <svg data-v-efa98260="" aria-hidden="true" class="bilibili svg-icon" style="float: right; margin-left: 10px;">
+                    <use data-v-efa98260="" xlink:href="#icon-bilibili"></use>
+                  </svg>
+                  <svg data-v-efa98260="" aria-hidden="true" class="youguan svg-icon" style="float: right; margin-left: 10px;">
+                    <use data-v-efa98260="" xlink:href="#icon-youtube"></use>
+                  </svg>
+                  <svg data-v-efa98260="" aria-hidden="true" class="channel svg-icon" style="float: right; margin-left: 10px;">
+                    <use data-v-efa98260="" xlink:href="#icon-telegram"></use>
+                  </svg>
+                  <div style="text-align: center; font-size: 15px;">订 阅 转 换</div></div>
+              </div>
+              <div class="el-card__body">
+                <section class="el-container">
+                  <form class="el-form el-form--label-left" style="width: 100%;">
+                    <div class="el-form-item el-form-item--small">
+                      <label class="el-form-item__label" style="width: 80px;">订阅链接:</label>
+                      <div class="el-form-item__content" style="margin-left: 80px;">
+                        <div class="el-textarea el-input--small">
+                          <textarea autocomplete="off" rows="3" placeholder="支持各种订阅链接或单节点链接，多个链接每行一个或用 | 分隔" class="el-textarea__inner" style="min-height: 31.3333px;"></textarea>
+                          <!----></div>
+                        <!----></div>
+                    </div>
+                    <div class="el-form-item el-form-item--small">
+                      <label class="el-form-item__label" style="width: 80px;">生成类型:</label>
+                      <div class="el-form-item__content" style="margin-left: 80px;">
+                        <div class="el-select el-select--small" style="width: 100%;">
+                          <!---->
+                          <div class="el-input el-input--small el-input--suffix">
+                            <!---->
+                            <input type="text" readonly="readonly" autocomplete="off" placeholder="请选择" class="el-input__inner">
+                            <!---->
+                            <span class="el-input__suffix">
+                              <span class="el-input__suffix-inner">
+                                <i class="el-select__caret el-input__icon el-icon-arrow-up"></i>
+                                <!---->
+                                <!---->
+                                <!---->
+                                <!---->
+                                <!----></span>
+                              <!----></span>
+                            <!---->
+                            <!----></div>
+                          <div class="el-select-dropdown el-popper" style="display: none; min-width: 0px;">
+                            <div class="el-scrollbar" style="">
+                              <div class="el-select-dropdown__wrap el-scrollbar__wrap" style="margin-bottom: -17px; margin-right: -17px;">
+                                <ul class="el-scrollbar__view el-select-dropdown__list">
+                                  <!---->
+                                  <li class="el-select-dropdown__item selected">
+                                    <span>Clash</span></li>
+                                  <li class="el-select-dropdown__item">
+                                    <span>Surge4/5</span></li>
+                                  <li class="el-select-dropdown__item">
+                                    <span>Sing-Box</span></li>
+                                  <li class="el-select-dropdown__item">
+                                    <span>V2Ray</span></li>
+                                  <li class="el-select-dropdown__item">
+                                    <span>Trojan</span></li>
+                                  <li class="el-select-dropdown__item">
+                                    <span>ShadowsocksR</span></li>
+                                  <li class="el-select-dropdown__item">
+                                    <span>混合订阅（mixed）</span></li>
+                                  <li class="el-select-dropdown__item">
+                                    <span>Surfboard</span></li>
+                                  <li class="el-select-dropdown__item">
+                                    <span>Quantumult</span></li>
+                                  <li class="el-select-dropdown__item">
+                                    <span>Quantumult X</span></li>
+                                  <li class="el-select-dropdown__item">
+                                    <span>Loon</span></li>
+                                  <li class="el-select-dropdown__item">
+                                    <span>Mellow</span></li>
+                                  <li class="el-select-dropdown__item">
+                                    <span>Surge3</span></li>
+                                  <li class="el-select-dropdown__item">
+                                    <span>Surge2</span></li>
+                                  <li class="el-select-dropdown__item">
+                                    <span>ClashR</span></li>
+                                  <li class="el-select-dropdown__item">
+                                    <span>Shadowsocks(SIP002)</span></li>
+                                  <li class="el-select-dropdown__item">
+                                    <span>Shadowsocks Android(SIP008)</span></li>
+                                  <li class="el-select-dropdown__item">
+                                    <span>ShadowsocksD</span></li>
+                                  <li class="el-select-dropdown__item">
+                                    <span>自动判断客户端</span></li>
+                                </ul>
+                              </div>
+                              <div class="el-scrollbar__bar is-horizontal">
+                                <div class="el-scrollbar__thumb" style="transform: translateX(0%);"></div>
+                              </div>
+                              <div class="el-scrollbar__bar is-vertical">
+                                <div class="el-scrollbar__thumb" style="transform: translateY(0%);"></div>
+                              </div>
+                            </div>
+                            <!----></div>
+                        </div>
+                        <!----></div>
+                    </div>
+                    <div class="el-form-item el-form-item--small">
+                      <label class="el-form-item__label" style="width: 80px;">后端地址:</label>
+                      <div class="el-form-item__content" style="margin-left: 80px;">
+                        <div class="el-select el-select--small" style="width: 100%;">
+                          <!---->
+                          <div class="el-input el-input--small el-input--suffix">
+                            <!---->
+                            <input type="text" readonly="readonly" autocomplete="off" placeholder="可输入自己的后端" class="el-input__inner">
+                            <!---->
+                            <span class="el-input__suffix">
+                              <span class="el-input__suffix-inner">
+                                <i class="el-select__caret el-input__icon el-icon-arrow-up"></i>
+                                <!---->
+                                <!---->
+                                <!---->
+                                <!---->
+                                <!----></span>
+                              <!----></span>
+                            <!---->
+                            <!----></div>
+                          <div class="el-select-dropdown el-popper" style="display: none; min-width: 0px;">
+                            <div class="el-scrollbar" style="">
+                              <div class="el-select-dropdown__wrap el-scrollbar__wrap" style="margin-bottom: -17px; margin-right: -17px;">
+                                <ul class="el-scrollbar__view el-select-dropdown__list">
+                                  <!---->
+                                  <li class="el-select-dropdown__item selected">
+                                    <span>肥羊增强型后端【vless reality+hy1+hy2】</span></li>
+                                  <li class="el-select-dropdown__item">
+                                    <span>肥羊备用后端【vless reality+hy1+hy2】</span></li>
+                                  <li class="el-select-dropdown__item">
+                                    <span>つつ-多地防失联【负载均衡+国内优化】</span></li>
+                                  <li class="el-select-dropdown__item">
+                                    <span>nameless13提供</span></li>
+                                  <li class="el-select-dropdown__item">
+                                    <span>subconverter作者提供</span></li>
+                                  <li class="el-select-dropdown__item">
+                                    <span>sub-web作者提供</span></li>
+                                  <li class="el-select-dropdown__item">
+                                    <span>sub作者&amp;lhie1提供</span></li>
+                                </ul>
+                              </div>
+                              <div class="el-scrollbar__bar is-horizontal">
+                                <div class="el-scrollbar__thumb" style="transform: translateX(0%);"></div>
+                              </div>
+                              <div class="el-scrollbar__bar is-vertical">
+                                <div class="el-scrollbar__thumb" style="transform: translateY(0%);"></div>
+                              </div>
+                            </div>
+                            <!----></div>
+                        </div>
+                        <!----></div>
+                    </div>
+                    <div class="el-form-item el-form-item--small">
+                      <label class="el-form-item__label" style="width: 80px;">短链选择:</label>
+                      <div class="el-form-item__content" style="margin-left: 80px;">
+                        <div class="el-select el-select--small" style="width: 100%;">
+                          <!---->
+                          <div class="el-input el-input--small el-input--suffix">
+                            <!---->
+                            <input type="text" readonly="readonly" autocomplete="off" placeholder="可输入其他可用短链API" class="el-input__inner">
+                            <!---->
+                            <span class="el-input__suffix">
+                              <span class="el-input__suffix-inner">
+                                <i class="el-select__caret el-input__icon el-icon-arrow-up"></i>
+                                <!---->
+                                <!---->
+                                <!---->
+                                <!---->
+                                <!----></span>
+                              <!----></span>
+                            <!---->
+                            <!----></div>
+                          <div class="el-select-dropdown el-popper" style="display: none; min-width: 0px;">
+                            <div class="el-scrollbar" style="">
+                              <div class="el-select-dropdown__wrap el-scrollbar__wrap" style="margin-bottom: -17px; margin-right: -17px;">
+                                <ul class="el-scrollbar__view el-select-dropdown__list">
+                                  <!---->
+                                  <li class="el-select-dropdown__item selected">
+                                    <span>v1.mk</span></li>
+                                  <li class="el-select-dropdown__item">
+                                    <span>d1.mk</span></li>
+                                  <li class="el-select-dropdown__item">
+                                    <span>dlj.tf</span></li>
+                                  <li class="el-select-dropdown__item">
+                                    <span>suo.yt</span></li>
+                                  <li class="el-select-dropdown__item">
+                                    <span>sub.cm</span></li>
+                                </ul>
+                              </div>
+                              <div class="el-scrollbar__bar is-horizontal">
+                                <div class="el-scrollbar__thumb" style="transform: translateX(0%);"></div>
+                              </div>
+                              <div class="el-scrollbar__bar is-vertical">
+                                <div class="el-scrollbar__thumb" style="transform: translateY(0%);"></div>
+                              </div>
+                            </div>
+                            <!----></div>
+                        </div>
+                        <!----></div>
+                    </div>
+                    <div class="el-form-item el-form-item--small">
+                      <label class="el-form-item__label" style="width: 80px;">远程配置:</label>
+                      <div class="el-form-item__content" style="margin-left: 80px;">
+                        <div class="el-select el-select--small" style="width: 100%;">
+                          <!---->
+                          <div class="el-input el-input--small el-input--suffix">
+                            <!---->
+                            <input type="text" readonly="readonly" autocomplete="off" placeholder="请选择" class="el-input__inner">
+                            <!---->
+                            <span class="el-input__suffix">
+                              <span class="el-input__suffix-inner">
+                                <i class="el-select__caret el-input__icon el-icon-arrow-up"></i>
+                                <!---->
+                                <!---->
+                                <!---->
+                                <!---->
+                                <!----></span>
+                              <!----></span>
+                            <!---->
+                            <!----></div>
+                          <div class="el-select-dropdown el-popper" style="display: none; min-width: 0px;">
+                            <div class="el-scrollbar" style="">
+                              <div class="el-select-dropdown__wrap el-scrollbar__wrap" style="margin-bottom: -17px; margin-right: -17px;">
+                                <ul class="el-scrollbar__view el-select-dropdown__list">
+                                  <!---->
+                                  <ul class="el-select-group__wrap">
+                                    <li class="el-select-group__title">通用</li>
+                                    <li>
+                                      <ul class="el-select-group">
+                                        <li class="el-select-dropdown__item selected">
+                                          <span>默认</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>默认（自动测速）</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>默认（索尼电视专用）</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>默认（附带用于 Clash 的 AdGuard DNS）</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>ACL_全分组 Dream修改版</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>ACL_精简分组 Dream修改版</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>emby-TikTok-流媒体分组-去广告加强版</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>流媒体通用分组</span></li>
+                                      </ul>
+                                    </li>
+                                  </ul>
+                                  <ul class="el-select-group__wrap">
+                                    <li class="el-select-group__title">ACL规则</li>
+                                    <li>
+                                      <ul class="el-select-group">
+                                        <li class="el-select-dropdown__item">
+                                          <span>ACL_默认版</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>ACL_无测速版</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>ACL_去广告版</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>ACL_多国家版</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>ACL_无Reject版</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>ACL_无测速精简版</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>ACL_全分组版</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>ACL_全分组谷歌版</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>ACL_全分组多模式版</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>ACL_全分组奈飞版</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>ACL_精简版</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>ACL_去广告精简版</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>ACL_Fallback精简版</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>ACL_多国家精简版</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>ACL_多模式精简版</span></li>
+                                      </ul>
+                                    </li>
+                                  </ul>
+                                  <ul class="el-select-group__wrap">
+                                    <li class="el-select-group__title">全网搜集规则</li>
+                                    <li>
+                                      <ul class="el-select-group">
+                                        <li class="el-select-dropdown__item">
+                                          <span>常规规则</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>酷酷自用</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>PharosPro无测速</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>分区域故障转移</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>分区域自动测速</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>分区域无自动测速</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>OoHHHHHHH</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>CFW-TAP</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>lhl77全分组（定期更新）</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>lhl77简易版（定期更新）</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>ConnersHua 神机规则 Outbound</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>ConnersHua 神机规则 Inbound 回国专用</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>lhie1 洞主规则（使用 Clash 分组规则）</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>lhie1 洞主规则完整版</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>eHpo1 规则</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>多策略组默认白名单模式</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>多策略组可以有效减少审计触发</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>精简策略默认白名单</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>多策略增加SMTP策略</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>无策略入门推荐</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>无策略入门推荐国家分组</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>无策略仅IPIP CN + Final</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>无策略魅影vip分组</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>品云专属配置（仅香港区域分组）</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>品云专属配置（全地域分组）</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>nzw9314 规则</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>maicoo-l 规则</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>DlerCloud Platinum 李哥定制规则</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>DlerCloud Gold 李哥定制规则</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>DlerCloud Silver 李哥定制规则</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>ProxyStorage自用</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>ShellClash修改版规则 (by UlinoyaPed)</span></li>
+                                      </ul>
+                                    </li>
+                                  </ul>
+                                  <ul class="el-select-group__wrap">
+                                    <li class="el-select-group__title">各大机场规则</li>
+                                    <li>
+                                      <ul class="el-select-group">
+                                        <li class="el-select-dropdown__item">
+                                          <span>EXFLUX</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>NaNoport</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>CordCloud</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>BigAirport</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>跑路云</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>WaveCloud</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>几鸡</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>四季加速</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>ImmTelecom</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>AmyTelecom</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>LinkCube</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>Miaona</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>Foo&amp;Friends</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>ABCloud</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>咸鱼</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>便利店</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>CNIX</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>Nirvana</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>V2Pro</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>史迪仔-自动测速</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>史迪仔-负载均衡</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>Maying</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>Ytoo</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>w8ves</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>NyanCAT</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>Nexitally</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>SoCloud</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>ARK</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>N3RO</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>Scholar</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>Flowercloud</span></li>
+                                      </ul>
+                                    </li>
+                                  </ul>
+                                  <ul class="el-select-group__wrap">
+                                    <li class="el-select-group__title">特殊</li>
+                                    <li>
+                                      <ul class="el-select-group">
+                                        <li class="el-select-dropdown__item">
+                                          <span>NeteaseUnblock</span></li>
+                                        <li class="el-select-dropdown__item">
+                                          <span>Basic</span></li>
+                                      </ul>
+                                    </li>
+                                  </ul>
+                                </ul>
+                              </div>
+                              <div class="el-scrollbar__bar is-horizontal">
+                                <div class="el-scrollbar__thumb" style="transform: translateX(0%);"></div>
+                              </div>
+                              <div class="el-scrollbar__bar is-vertical">
+                                <div class="el-scrollbar__thumb" style="transform: translateY(0%);"></div>
+                              </div>
+                            </div>
+                            <!----></div>
+                        </div>
+                        <!----></div>
+                    </div>
+                    <div class="el-form-item el-form-item--small">
+                      <!---->
+                      <div class="el-form-item__content" style="margin-left: 0px;">
+                        <div role="tablist" aria-multiselectable="true" class="el-collapse">
+                          <div class="el-collapse-item is-active">
+                            <div role="tab" aria-controls="el-collapse-content-9078" aria-describedby="el-collapse-content-9078" aria-expanded="true">
+                              <div role="button" id="el-collapse-head-9078" tabindex="0" class="el-collapse-item__header is-active">
+                                <div class="el-form-item el-form-item--small" style="width: 100%;">
+                                  <label class="el-form-item__label" style="width: 80px;">高级功能:</label>
+                                  <div class="el-form-item__content" style="margin-left: 80px;">
+                                    <button type="button" class="el-button el-button--limr el-button--small" style="width: 100%;">
+                                      <!---->
+                                      <i class="el-icon-more-outline"></i>
+                                      <span>点击显示/隐藏</span></button>
+                                    <!----></div>
+                                </div>
+                                <i class="el-collapse-item__arrow el-icon-arrow-right is-active"></i>
+                              </div>
+                            </div>
+                            <div role="tabpanel" aria-labelledby="el-collapse-head-9078" id="el-collapse-content-9078" class="el-collapse-item__wrap" style="" data-old-padding-top="" data-old-padding-bottom="" data-old-overflow="">
+                              <div class="el-collapse-item__content">
+                                <div class="el-form-item el-form-item--small">
+                                  <label class="el-form-item__label" style="width: 80px;">包含节点:</label>
+                                  <div class="el-form-item__content" style="margin-left: 80px;">
+                                    <div class="el-input el-input--small">
+                                      <!---->
+                                      <input type="text" autocomplete="off" placeholder="要保留的节点，支持正则" class="el-input__inner">
+                                      <!---->
+                                      <!---->
+                                      <!---->
+                                      <!----></div>
+                                    <!----></div>
+                                </div>
+                                <div class="el-form-item el-form-item--small">
+                                  <label class="el-form-item__label" style="width: 80px;">排除节点:</label>
+                                  <div class="el-form-item__content" style="margin-left: 80px;">
+                                    <div class="el-input el-input--small">
+                                      <!---->
+                                      <input type="text" autocomplete="off" placeholder="要排除的节点，支持正则" class="el-input__inner">
+                                      <!---->
+                                      <!---->
+                                      <!---->
+                                      <!----></div>
+                                    <!----></div>
+                                </div>
+                                <div class="el-form-item el-form-item--small">
+                                  <label class="el-form-item__label" style="width: 80px;">节点命名:</label>
+                                  <div class="el-form-item__content" style="margin-left: 80px;">
+                                    <div class="el-input el-input--small">
+                                      <!---->
+                                      <input type="text" autocomplete="off" placeholder="举例：`a@b``1@2`，|符可用\转义" class="el-input__inner">
+                                      <!---->
+                                      <!---->
+                                      <!---->
+                                      <!----></div>
+                                    <!----></div>
+                                </div>
+                                <div class="el-form-item el-form-item--small">
+                                  <label class="el-form-item__label" style="width: 80px;">远程设备:</label>
+                                  <div class="el-form-item__content" style="margin-left: 80px;">
+                                    <div class="el-input el-input--small">
+                                      <!---->
+                                      <input type="text" autocomplete="off" placeholder="用于设置QuantumultX的远程设备ID" class="el-input__inner">
+                                      <!---->
+                                      <!---->
+                                      <!---->
+                                      <!----></div>
+                                    <!----></div>
+                                </div>
+                                <div class="el-form-item el-form-item--small">
+                                  <label class="el-form-item__label" style="width: 80px;">更新间隔:</label>
+                                  <div class="el-form-item__content" style="margin-left: 80px;">
+                                    <div class="el-input el-input--small">
+                                      <!---->
+                                      <input type="text" autocomplete="off" placeholder="返用于设置托管配置更新间隔，单位为天" class="el-input__inner">
+                                      <!---->
+                                      <!---->
+                                      <!---->
+                                      <!----></div>
+                                    <!----></div>
+                                </div>
+                                <div class="el-form-item el-form-item--small">
+                                  <label class="el-form-item__label" style="width: 80px;">订阅命名:</label>
+                                  <div class="el-form-item__content" style="margin-left: 80px;">
+                                    <div class="el-input el-input--small">
+                                      <!---->
+                                      <input type="text" autocomplete="off" placeholder="返回的订阅文件名，可以在支持文件名的客户端中显示出来" class="el-input__inner">
+                                      <!---->
+                                      <!---->
+                                      <!---->
+                                      <!----></div>
+                                    <!----></div>
+                                </div>
+                                <div class="el-form-item eldiy el-form-item--small">
+                                  <!---->
+                                  <div class="el-form-item__content" style="margin-left: 0px;">
+                                    <div class="el-row el-row--flex">
+                                      <div class="el-col el-col-24">
+                                        <label class="el-checkbox el-checkbox--small is-bordered">
+                                          <span class="el-checkbox__input">
+                                            <span class="el-checkbox__inner"></span>
+                                            <input type="checkbox" aria-hidden="false" class="el-checkbox__original" value="仅输出节点信息"></span>
+                                          <span class="el-checkbox__label">仅输出节点信息</span></label>
+                                      </div>
+                                      <span>
+                                        <div role="tooltip" id="el-popover-350" aria-hidden="true" class="el-popover el-popper" tabindex="0" style="display: none;">
+                                          <!---->
+                                          <div class="el-row" style="margin-left: -5px; margin-right: -5px;">
+                                            <div class="el-col el-col-12" style="padding-left: 5px; padding-right: 5px;">
+                                              <label class="el-checkbox is-checked">
+                                                <span class="el-checkbox__input is-checked">
+                                                  <span class="el-checkbox__inner"></span>
+                                                  <input type="checkbox" aria-hidden="false" class="el-checkbox__original" value="Emoji"></span>
+                                                <span class="el-checkbox__label">Emoji</span></label>
+                                            </div>
+                                            <div class="el-col el-col-12" style="padding-left: 5px; padding-right: 5px;">
+                                              <label class="el-checkbox">
+                                                <span class="el-checkbox__input">
+                                                  <span class="el-checkbox__inner"></span>
+                                                  <input type="checkbox" aria-hidden="false" class="el-checkbox__original" value="插入默认节点"></span>
+                                                <span class="el-checkbox__label">插入默认节点</span></label>
+                                            </div>
+                                          </div>
+                                          <div class="el-row" style="margin-left: -5px; margin-right: -5px;">
+                                            <div class="el-col el-col-12" style="padding-left: 5px; padding-right: 5px;">
+                                              <label class="el-checkbox">
+                                                <span class="el-checkbox__input">
+                                                  <span class="el-checkbox__inner"></span>
+                                                  <input type="checkbox" aria-hidden="false" class="el-checkbox__original" value="启用 UDP"></span>
+                                                <span class="el-checkbox__label">启用 UDP</span></label>
+                                            </div>
+                                            <div class="el-col el-col-12" style="padding-left: 5px; padding-right: 5px;">
+                                              <label class="el-checkbox">
+                                                <span class="el-checkbox__input">
+                                                  <span class="el-checkbox__inner"></span>
+                                                  <input type="checkbox" aria-hidden="false" class="el-checkbox__original" value="启用 XUDP"></span>
+                                                <span class="el-checkbox__label">启用 XUDP</span></label>
+                                            </div>
+                                          </div>
+                                          <div class="el-row" style="margin-left: -5px; margin-right: -5px;">
+                                            <div class="el-col el-col-12" style="padding-left: 5px; padding-right: 5px;">
+                                              <label class="el-checkbox">
+                                                <span class="el-checkbox__input">
+                                                  <span class="el-checkbox__inner"></span>
+                                                  <input type="checkbox" aria-hidden="false" class="el-checkbox__original" value="启用 TFO"></span>
+                                                <span class="el-checkbox__label">启用 TFO</span></label>
+                                            </div>
+                                            <div class="el-col el-col-12" style="padding-left: 5px; padding-right: 5px;">
+                                              <label class="el-checkbox">
+                                                <span class="el-checkbox__input">
+                                                  <span class="el-checkbox__inner"></span>
+                                                  <input type="checkbox" aria-hidden="false" class="el-checkbox__original" value="基础节点排序"></span>
+                                                <span class="el-checkbox__label">基础节点排序</span></label>
+                                            </div>
+                                          </div>
+                                          <div class="el-row" style="margin-left: -5px; margin-right: -5px;">
+                                            <div class="el-col el-col-12" style="padding-left: 5px; padding-right: 5px;">
+                                              <label class="el-checkbox">
+                                                <span class="el-checkbox__input">
+                                                  <span class="el-checkbox__inner"></span>
+                                                  <input type="checkbox" aria-hidden="false" class="el-checkbox__original" value="Clash.DoH"></span>
+                                                <span class="el-checkbox__label">Clash.DoH</span></label>
+                                            </div>
+                                            <div class="el-col el-col-12" style="padding-left: 5px; padding-right: 5px;">
+                                              <label class="el-checkbox">
+                                                <span class="el-checkbox__input">
+                                                  <span class="el-checkbox__inner"></span>
+                                                  <input type="checkbox" aria-hidden="false" class="el-checkbox__original" value="插入节点类型"></span>
+                                                <span class="el-checkbox__label">插入节点类型</span></label>
+                                            </div>
+                                          </div>
+                                          <div class="el-row" style="margin-left: -5px; margin-right: -5px;">
+                                            <div class="el-col el-col-12" style="padding-left: 5px; padding-right: 5px;">
+                                              <label class="el-checkbox">
+                                                <span class="el-checkbox__input">
+                                                  <span class="el-checkbox__inner"></span>
+                                                  <input type="checkbox" aria-hidden="false" class="el-checkbox__original" value="Surge.DoH"></span>
+                                                <span class="el-checkbox__label">Surge.DoH</span></label>
+                                            </div>
+                                            <div class="el-col el-col-12" style="padding-left: 5px; padding-right: 5px;">
+                                              <label class="el-checkbox">
+                                                <span class="el-checkbox__input">
+                                                  <span class="el-checkbox__inner"></span>
+                                                  <input type="checkbox" aria-hidden="false" class="el-checkbox__original" value="开启TLS_1.3"></span>
+                                                <span class="el-checkbox__label">开启TLS_1.3</span></label>
+                                            </div>
+                                          </div>
+                                          <div class="el-row" style="margin-left: -5px; margin-right: -5px;">
+                                            <div class="el-col el-col-12" style="padding-left: 5px; padding-right: 5px;">
+                                              <label class="el-checkbox is-checked">
+                                                <span class="el-checkbox__input is-checked">
+                                                  <span class="el-checkbox__inner"></span>
+                                                  <input type="checkbox" aria-hidden="false" class="el-checkbox__original" value="展开规则全文"></span>
+                                                <span class="el-checkbox__label">展开规则全文</span></label>
+                                            </div>
+                                            <div class="el-col el-col-12" style="padding-left: 5px; padding-right: 5px;">
+                                              <label class="el-checkbox is-checked">
+                                                <span class="el-checkbox__input is-checked">
+                                                  <span class="el-checkbox__inner"></span>
+                                                  <input type="checkbox" aria-hidden="false" class="el-checkbox__original" value="Clash新字段名"></span>
+                                                <span class="el-checkbox__label">Clash新字段名</span></label>
+                                            </div>
+                                          </div>
+                                          <div class="el-row" style="margin-left: -5px; margin-right: -5px;">
+                                            <div class="el-col el-col-12" style="padding-left: 5px; padding-right: 5px;">
+                                              <label class="el-checkbox">
+                                                <span class="el-checkbox__input">
+                                                  <span class="el-checkbox__inner"></span>
+                                                  <input type="checkbox" aria-hidden="false" class="el-checkbox__original" value="跳过证书验证"></span>
+                                                <span class="el-checkbox__label">跳过证书验证</span></label>
+                                            </div>
+                                            <div class="el-col el-col-12" style="padding-left: 5px; padding-right: 5px;">
+                                              <label class="el-checkbox">
+                                                <span class="el-checkbox__input">
+                                                  <span class="el-checkbox__inner"></span>
+                                                  <input type="checkbox" aria-hidden="false" class="el-checkbox__original" value="过滤不支持节点"></span>
+                                                <span class="el-checkbox__label">过滤不支持节点</span></label>
+                                            </div>
+                                          </div>
+                                          <div class="el-row" style="margin-left: -5px; margin-right: -5px;">
+                                            <div class="el-col el-col-12" style="padding-left: 5px; padding-right: 5px;">
+                                              <div style="margin-left: 35%;">
+                                                <label class="el-checkbox">
+                                                  <span class="el-checkbox__input">
+                                                    <span class="el-checkbox__inner"></span>
+                                                    <input type="checkbox" aria-hidden="false" class="el-checkbox__original" value="Sing-Box支持IPV6"></span>
+                                                  <span class="el-checkbox__label">Sing-Box支持IPV6</span></label>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <span class="el-popover__reference-wrapper">
+                                          <button type="button" class="el-button el-button--default el-button--small el-popover__reference" aria-describedby="el-popover-350" tabindex="0">
+                                            <!---->
+                                            <!---->
+                                            <span>更多选项</span></button>
+                                        </span>
+                                      </span>
+                                    </div>
+                                    <!----></div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!----></div>
+                    </div>
+                    <div style="margin-top: 30px;"></div>
+                    <div class="el-divider el-divider--horizontal">
+                      <div class="el-divider__text is-center">
+                        <button type="button" class="el-button el-button--zhuti el-button--small">
+                          <!---->
+                          <!---->
+                          <span>
+                            <i id="rijian" class="el-icon-sunny"></i>
+                            <i id="yejian" class="el-icon-moon"></i>
+                          </span>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="el-form-item el-form-item--small">
+                      <label class="el-form-item__label" style="width: 80px;">定制订阅:</label>
+                      <div class="el-form-item__content" style="margin-left: 80px;">
+                        <div class="copy-content el-input el-input--small is-disabled el-input-group el-input-group--append">
+                          <!---->
+                          <input type="text" disabled="disabled" autocomplete="off" class="el-input__inner">
+                          <!---->
+                          <!---->
+                          <div class="el-input-group__append">
+                            <button type="button" class="el-button el-button--default el-button--small">
+                              <!---->
+                              <i class="el-icon-document-copy"></i>
+                              <span>复制</span></button>
+                          </div>
+                          <!----></div>
+                        <!----></div>
+                    </div>
+                    <div class="el-form-item el-form-item--small">
+                      <label class="el-form-item__label" style="width: 80px;">订阅短链:</label>
+                      <div class="el-form-item__content" style="margin-left: 80px;">
+                        <div class="copy-content el-input el-input--small el-input-group el-input-group--append">
+                          <!---->
+                          <input type="text" autocomplete="off" placeholder="输入自定义短链接后缀，点击生成短链接可反复生成" class="el-input__inner">
+                          <!---->
+                          <!---->
+                          <div class="el-input-group__append">
+                            <button type="button" class="el-button el-button--default el-button--small">
+                              <!---->
+                              <i class="el-icon-document-copy"></i>
+                              <span>复制</span></button>
+                          </div>
+                          <!----></div>
+                        <!----></div>
+                    </div>
+                    <div class="el-form-item el-form-item--small" style="margin-top: 40px; text-align: center;">
+                      <!---->
+                      <div class="el-form-item__content" style="margin-left: 0px;">
+                        <button disabled="disabled" type="button" class="el-button el-button--danger el-button--small is-disabled" style="width: 120px;">
+                          <!---->
+                          <!---->
+                          <span>生成订阅链接</span></button>
+                        <button disabled="disabled" type="button" class="el-button el-button--danger el-button--small is-disabled" style="width: 120px;">
+                          <!---->
+                          <!---->
+                          <span>生成短链接</span></button>
+                        <!----></div>
+                    </div>
+                    <div class="el-form-item el-form-item--small" style="text-align: center;">
+                      <!---->
+                      <div class="el-form-item__content" style="margin-left: 0px;">
+                        <button type="button" class="el-button el-button--primary el-button--small" style="width: 120px;">
+                          <!---->
+                          <i class="el-icon-upload"></i>
+                          <span>自定义配置</span></button>
+                        <button type="button" class="el-button el-button--primary el-button--small" style="width: 120px;">
+                          <!---->
+                          <i class="el-icon-copy-document"></i>
+                          <span>从URL解析</span></button>
+                        <!----></div>
+                    </div>
+                    <div class="el-form-item el-form-item--small" style="text-align: center;">
+                      <!---->
+                      <div class="el-form-item__content" style="margin-left: 0px;">
+                        <button type="button" class="el-button el-button--success el-button--small" style="width: 250px;">
+                          <!---->
+                          <i class="el-icon-video-play"></i>
+                          <span>视频教程</span></button>
+                        <!----></div>
+                    </div>
+                  </form>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="el-dialog__wrapper" style="display: none;">
+          <div role="dialog" aria-modal="true" aria-label="请选择需要观看的视频教程" class="el-dialog el-dialog--center" style="margin-top: 30vh; width: 40vh;">
+            <div class="el-dialog__header">
+              <span class="el-dialog__title">请选择需要观看的视频教程</span>
+              <!----></div>
+            <!---->
+            <!----></div>
+        </div>
+        <div class="el-dialog__wrapper" style="display: none;">
+          <div role="dialog" aria-modal="true" aria-label="dialog" class="el-dialog" style="margin-top: 15vh; width: 80%;">
+            <div class="el-dialog__header">
+              <span class="el-dialog__title"></span>
+              <!----></div>
+            <!---->
+            <!----></div>
+        </div>
+        <div class="el-dialog__wrapper" style="display: none;">
+          <div role="dialog" aria-modal="true" aria-label="dialog" class="el-dialog" style="margin-top: 15vh; width: 80%;">
+            <div class="el-dialog__header">
+              <div>可以从生成的长/短链接中解析信息,填入页面中去</div>
+              <!----></div>
+            <!---->
+            <div class="el-dialog__footer">
+              <div class="dialog-footer">
+                <button type="button" class="el-button el-button--primary el-button--small">
+                  <!---->
+                  <!---->
+                  <span>取 消</span></button>
+                <button disabled="disabled" type="button" class="el-button el-button--primary el-button--small is-disabled">
+                  <!---->
+                  <!---->
+                  <span>确 定</span></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/three.min.js"></script>
+    <script src="/js/projector.js"></script>
+    <script src="/js/canvas-renderer.js"></script>
+    <script src="/js/3d-lines-animation.js"></script>
+    <script src="/js/color.js"></script>
+    <div tabindex="-1" role="dialog" aria-modal="true" aria-label="信息面板" class="el-message-box__wrapper" style="z-index: 2001; display: none;">
+      <div class="el-message-box msgbox">
+        <div class="el-message-box__content">
+          <div class="el-message-box__container">
+            <!---->
+            <div class="el-message-box__message">
+              <p>
+                <div style="text-align:center;font-size:15px">
+                  <strong>
+                    <span style="font-size:20px;color:red">apiurl.v1.mk已被蔷，请更换最新的url.v1.mk</span></strong>
+                  <br>
+                  <strong>
+                    <span style="font-size:20px">本站官方TG交流群：</span>
+                    <span>
+                      <a href="https://t.me/feiyangdigital" target="_blank" style="color:red;font-size:20px;text-decoration:none">点击加入</a></span>
+                  </strong>
+                  <br>
+                  <strong>
+                    <span style="font-size:20px">IEPL高端机场（
+                      <span style="color:blue">原生支持各种流媒体</span>）：</span>
+                    <span>
+                      <a href="https://www.mcwy.org" style="color:red;font-size:20px;text-decoration:none">点击注册</a></span>
+                  </strong>
+                  <br>
+                  <strong>
+                    <span style="font-size:20px">奈飞、ChatGPT合租（
+                      <span style="color:blue">优惠码：feiyang</span>）：</span>
+                    <span>
+                      <a href="https://hezu.v1.mk/" style="color:red;font-size:20px;text-decoration:none">点击上车</a></span>
+                  </strong>
+                  <br>
+                  <strong>
+                    <span style="font-size:20px">115蓝光4K原盘内部资源群：</span>
+                    <span>
+                      <a href="https://115.metshop.top" target="_blank" style="color:red;font-size:20px;text-decoration:none">点击查看</a></span>
+                  </strong>
+                  <br>本站服务器赞助机场-牧场物语，是一家拥有BGP中继+IEPL企业级内网专线的高端机场，适合各个价位要求的用户，牧场物语采用最新的奈飞非自制剧解决方案，出口随机更换IP，确保尽可能的每个用户可以用上独立IP，以此来稳定解决奈飞非自制剧的封锁，并推出7*24小时奈飞非自制剧节点自动检测系统，用户再也不用自己手动一个个的乱试节点了，目前牧场的新加坡，台湾等节区域点均可做到24H稳定非自制剧观看！
+                  <br></div></p>
+            </div>
+          </div>
+          <div class="el-message-box__input" style="display: none;">
+            <div class="el-input el-input--small">
+              <!---->
+              <input type="text" autocomplete="off" placeholder="" class="el-input__inner">
+              <!---->
+              <!---->
+              <!---->
+              <!----></div>
+            <div class="el-message-box__errormsg" style="visibility: hidden;"></div>
+          </div>
+        </div>
+        <div class="el-message-box__btns">
+          <!---->
+          <button type="button" class="el-button el-button--default el-button--small el-button--primary ">
+            <!---->
+            <!---->
+            <span>确定</span></button>
+        </div>
+      </div>
+    </div>
+    <deepl-input-controller></deepl-input-controller>
+  </body>
+  <div id="immersive-translate-popup" style="all: initial"></div>
+
+</html>
